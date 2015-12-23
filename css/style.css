@@ -1,3 +1,47 @@
 body {
-    text-align: center;
+    text-align:center;
+    background-color:black;
+    font-size:18px;
+    margin: 0 auto;
+}
+nav{
+    width:45%;
+    display:inline-block;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+#center{
+
+}
+
+#left{
+    float:left;
+    width:50%;
+}
+
+#right{
+    float:right;
+    width:50%;
+}
+
+#game{
+    width:30%;
+}
+
+.win{
+    background-color:#D8F6CE;
+}
+
+#wonTimes{
+    color:#D8F6CE;
+    border-style: dotted;
+}
+
+#lostTimes{
+    color:#D8F6CE;
+    border-style: dotted;
 }
