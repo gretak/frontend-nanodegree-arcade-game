@@ -107,10 +107,10 @@ var lostTimes=0;
 
 function checkCollisions() {
  for (var i=0;i<allEnemies.length;i++) {
-    if ((allEnemies[i].x) <= player.x + 30 &&
-            (allEnemies[i].x + 30) >= (player.x) &&
-            (allEnemies[i].y)<= player.y + 30 &&
-            (allEnemies[i].y + 30) >= (player.y)) {
+    if ((allEnemies[i].x) <= player.x + 40 &&
+            (allEnemies[i].x + 40) >= (player.x) &&
+            (allEnemies[i].y)<= player.y + 40 &&
+            (allEnemies[i].y + 40) >= (player.y)) {
          alert('YOU LOSE');
       player.y=initialPlayerPosY;
       player.x=width/2-50; 
