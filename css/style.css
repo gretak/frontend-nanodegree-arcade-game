@@ -1,47 +1,43 @@
 body {
-    text-align:center;
-    background-color:black;
-    font-size:18px;
+    text-align: center;
+    background-color: black;
+    font-size: 18px;
     margin: 0 auto;
 }
 nav{
-    width:45%;
-    display:inline-block;
+    width: 45%;
+    display: inline-block;
 }
 
 p{
-    margin:0;
-    padding:0;
-}
-
-#center{
-
+    margin: 0;
+    padding: 0;
 }
 
 #left{
-    float:left;
-    width:50%;
+    float: left;
+    width: 50%;
 }
 
 #right{
-    float:right;
-    width:50%;
+    float: right;
+    width: 50%;
 }
 
 #game{
-    width:30%;
+    width: 30%;
 }
 
 .win{
-    background-color:#D8F6CE;
+    background-color: #d8f6fe;
 }
 
 #wonTimes{
-    color:#D8F6CE;
+    color: #d8f6ce;
     border-style: dotted;
 }
 
 #lostTimes{
-    color:#D8F6CE;
+    color: #d8f6ce;
     border-style: dotted;
 }
